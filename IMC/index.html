@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="icon" href="./img/balance.png">
+    <link rel="stylesheet" href="./index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <title>IMC | calculadora</title>
+</head>
+
+
+<body>
+    <header>
+        <img src="./img/balance.png" alt="Balanca">
+        <h1>
+            Ymbhealth: always taking care of you
+        </h1>
+
+        <h2>
+            CALCULO DE IMC
+        </h2>
+    </header>
+
+    <h1>CALCULO DE IMC</h1>
+
+    <form id="imcForm">
+
+        <div class="altura">
+            <label for="altura">Altura (cm):</label>
+            <input type="number" id="altura" required>
+        </div>
+
+        <div class="peso">
+            <label for="peso">Peso (kg):</label>
+            <input type="number" id="peso" required>
+        </div>
+
+
+        <button type="submit">Calcular IMC</button>
+    </form>
+
+    <div id="resultado" class="result"></div>
+
+
+
+    <script src="./js/imc.js"></script>
+
+</body>
+</html>

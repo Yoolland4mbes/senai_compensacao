@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1F618D;
+    font-family: Arial, sans-serif;
+}
+
+
+header{
+    height: 100px;
+    border-radius: 0px 0px  30px 30px ;
+    background-color: #2471A3;
+}
+
+header img{
+    width: 50px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+header h1{
+    font-family: 'dancing script';
+    color: bisque;
+    margin-top: -110px;
+    margin-left: -400px;
+}
+
+header h2{
+    margin-left: 140vh;
+    margin-top: -30px;
+    color: bisque;
+}
+
+h1{
+    padding-left: 590px;
+    padding-top: 70px;
+    color:#7FB3D5;
+    font-family: sans-serif;
+}
+
+form{
+    margin-left: 670px;
+}
+
+.altura input{
+border-radius: 10px;
+border: none;
+margin-left: 10px;
+}
+
+.altura label{
+    color:bisque;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+
+.peso input{
+    border-radius: 10px;
+    border: none;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.peso label{
+    color:bisque;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="number"] {
+    width: 100px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #7FB3D5;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.result {
+    margin-top: 50px;
+    margin-left: -70px;
+    text-align: center;
+}
+
